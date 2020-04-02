@@ -1,3 +1,107 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+#con {
+  position: relative;
+}
+#room1 {
+  position: absolute;
+  width: 17%;
+  height: 11.5%;
+  bottom:86.5%;
+  left:15%;
+}
+#room2 {
+  position: absolute;
+  width: 50%;
+  height: 8%;
+  bottom:90%;
+  left:32%;
+}
+#room3 {
+  position: absolute;
+  width: 22%;
+  height: 18%;
+  bottom:68%;
+  left:26%;
+}
+#room4 {
+  position: absolute;
+  width: 32%;
+  height: 20%;
+  bottom:66.5%;
+  left:48.5%;
+}
+#room5 {
+  position: absolute;
+  width: 16%;
+  height: 21%;
+  bottom:46.5%;
+  left:26%;
+}
+#room6 {
+  position: absolute;
+  width: 40%;
+  height: 41%;
+  bottom:26%;
+  left:41%;
+}
+#room7 {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  bottom:5%;
+  left:41%;
+}
+
+#maproom1 {
+  display: none;
+}
+#maproom2 {
+  display: none;
+}
+
+#maproom3 {
+  display: none;
+}
+
+#maproom4 {
+  display: none;
+}
+
+#maproom5 {
+  display: none;
+}
+
+#maproom6 {
+  display: none;
+}
+
+#maproom7 {
+  display: none;
+}
+#maproom7d {
+  position: relative;
+}
+#maproom7-1 {
+    display: none;
+  position: absolute;
+  width: 39%;
+  height: 72%;
+  bottom:10%;
+  left: 9%;
+}
+#maproom7-2 {
+  display: none;
+position: absolute;
+width: 42%;
+height: 72%;
+bottom:10%;
+left: 49%;
+}
+#maproom71 {
+  display: none;
+}
+#maproom72 {
+  display: none;
+}

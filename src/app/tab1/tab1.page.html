@@ -1,17 +1,78 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="true" id="header">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-title id="title">
+      Logowanie
     </ion-title>
+    <ion-buttons slot='primary' id="exitbt">
+     <ion-button id='exitroom'>
+       <ion-icon slot='icon-only' name='close'></ion-icon>
+     </ion-button>
+   </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" id="loginpanel">
+  <br><br><br>
+            <ion-item>
+              <ion-label position="stacked">Login <ion-text color="danger">*</ion-text></ion-label>
+              <ion-input required type="text" id="login" value=""></ion-input>
+            </ion-item>
+            <br><br>
+            <ion-item>
+              <ion-label position="stacked">Hasło <ion-text color="danger">*</ion-text></ion-label>
+              <ion-input required type="password" id="pass" value=""></ion-input>
+            </ion-item><br><br>
+<ion-button expand="full" id="check_log">Zaloguj</ion-button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+ <ion-img src="assets/img/smarthome.jpg" style="width:100%; height:35%; object-fit: cover; position:absolute; bottom: 3%;"></ion-img>
 </ion-content>
+
+
+<ion-content [fullscreen]="true" id="dashboard">
+  <ion-item id="contentv1">
+<ion-label id="label"><br><br>
+Urządzenia W Środku<br><br><br>
+</ion-label>
+</ion-item>
+<br><br><br><br><br><br><br>
+<ion-item id="contentv2">
+  <ion-label id="label"><br><br>
+    Urządzenia Na Zewnątrz<br><br><br>
+  </ion-label>
+</ion-item><br><br>
+<br><br>
+<br><br>
+ <ion-img src="assets/img/home.jpg" style="width:100%; height:100%; object-fit: cover; position:absolute; bottom: 5%;"></ion-img>
+</ion-content>
+
+
+<ion-content [fullscreen]="true" id="indoor">
+  <ion-item id="contentv1v2">
+<ion-label id="roomsinclick"><br><br>
+Pomieszczenia<br><br><br>
+</ion-label>
+</ion-item>
+<br><br><br><br><br><br><br>
+<ion-item routerLink="/tabs/tab2" id="contentv2v2">
+  <ion-label id="label"><br><br>
+    Mapa Domu<br><br><br>
+  </ion-label>
+</ion-item><br><br>
+<br><br>
+<br><br>
+ <ion-img src="assets/img/device.jpg" style="width:100%; height:100%; object-fit: cover; position:absolute; bottom: 5%;"></ion-img>
+</ion-content>
+
+
+<ion-content [fullscreen]="true" id="roomsin">
+  <ion-list id="room_list_in">
+
+    </ion-list>
+</ion-content>
+
+<ion-content [fullscreen]="true" id="room_show_in">
+  <ion-list id="room_list_in">
+
+    </ion-list>
+</ion-content>
+<div id="loadtab1"></div>

@@ -1,7 +1,9 @@
 {
   "name": "smart_home",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
-  "type": "angular"
+  "type": "angular",
+  "id": "02d12b68"
 }
